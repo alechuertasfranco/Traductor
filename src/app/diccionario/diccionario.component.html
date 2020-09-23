@@ -1,0 +1,8 @@
+<h1>Pokemones</h1>
+
+<ul *ngIf="brews">
+    <li *ngFor="let brew of brews">
+        <p class="name"> {{ brew.name }} </p>
+        <a href="{{ brew.url }}" class="site"> site </a>
+    </li>
+</ul>

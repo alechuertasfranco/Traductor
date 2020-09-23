@@ -1,0 +1,11 @@
+<div class="component-container">
+    <div class="form-group">
+        <label for=''>Español</label>
+        <input type='text' class="form-control" [(ngModel)]='a' required>
+    </div>
+    <div class="form-group">
+        <label for="exampleInputPassword1">Ingles</label>
+        <input type='text' class="form-control" [(ngModel)]='b' disabled>
+    </div>
+    <button (click)='traduce()' class="btn btn-primary">Traducir</button>
+</div>

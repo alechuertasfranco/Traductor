@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Spa"
+    }
+  },
+  "defaultProject": "Spa",
+  "cli": {
+    "analytics": "e6edad92-d70e-430e-8ee9-e197ff24ec62"
+  }
 }
